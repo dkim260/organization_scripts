@@ -26,9 +26,16 @@ Various scripts I might use later on
   Chaptername          Page
 
   Chaptername          Page
+  
 
   ...
 
   Spaces don't matter, but hopefully there is a new line between each Chaptername              Page entry.
 
   Have to compile through java and insert the file name as arg[0]
+  
+  Example:
+  before
+  https://pastebin.com/qHq0K0DU
+  after
+  https://pastebin.com/Apcf4pAL
