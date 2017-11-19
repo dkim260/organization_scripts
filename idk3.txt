@@ -1,0 +1,785 @@
+(bookmarks
+	("CONTENTS"
+	 "#10")
+	("I. INTRODUCTION"
+	 "#24"
+		("Part 1. Historical Introduction"
+		 "#24"
+			("Chapter I 1.1 The two basic concepts of calculus"
+			 "#24")
+			("Chapter I 1.2 Historical background"
+			 "#25")
+			("Chapter I 1.3 The method of exhaustion for the area of a parabolic segment"
+			 "#26")
+			("Chapter *I 1.4 Exercises"
+			 "#31")
+			("Chapter I 1.5 A critical analysis of Archimedes' method"
+			 "#31")
+			("Chapter I 1.6 The approach to calculus to be used in this book"
+			 "#33")
+		)
+		("Chapter Part 2. Some Basic Concepts of the Theory of Sets"
+		 "#34"
+			("Chapter I 2.1 Introduction to set theory"
+			 "#34")
+			("Chapter I 2.2 Notations for designating sets"
+			 "#35")
+			("Chapter I 2.3 Subsets"
+			 "#35")
+			("Chapter I 2.4 Unions, intersections, complements"
+			 "#36")
+			("Chapter I 2.5 Exercises"
+			 "#38")
+		)
+		("Chapter Part 3. A Set of Axioms for the Real Number System"
+		 "#40"
+			("Chapter I 3.1 Introduction"
+			 "#40")
+			("Chapter I 3.2 The field axioms"
+			 "#40")
+			("Chapter *I 3.3 Exercises"
+			 "#42")
+			("Chapter I 3.4 The order axioms"
+			 "#42")
+			("Chapter *I 3.5 Exercises"
+			 "#44")
+			("Chapter I 3.6 Integers and rational numbers"
+			 "#44")
+			("Chapter I 3.7 Geometric interpretation of real numbers as points on a line"
+			 "#45")
+			("Chapter I 3.8 Upper bound of a set, maximum element, least upper bound (supremum)"
+			 "#46")
+			("Chapter I 3.9 The least-upper-bound axiom (completeness axiom)"
+			 "#48")
+			("Chapter I 3.10 The Archimedean property of the real-number system 	"
+			 "#48")
+			("Chapter I 3.11 Fundamental properties of the supremum and infimum"
+			 "#49")
+			("Chapter *I 3.12 Exercises"
+			 "#51")
+			("Chapter *I 3.13 Existence of square roots of nonnegative real numbers"
+			 "#52")
+			("Chapter *I 3.14 Roots of higher order. Rational powers"
+			 "#53")
+			("Chapter *I 3.15 Representation of real numbers by decimals"
+			 "#53")
+		)
+		("Chapter Part 4. Mathematical Induction, Summation Notation, and Related Topics"
+		 "#55"
+			("Chapter I 4.1 An example of a proof by mathematical induction"
+			 "#55")
+			("Chapter I 4.2 The principle of mathematical induction"
+			 "#57")
+			("Chapter *I 4.3 The well-ordering principle"
+			 "#57")
+			("Chapter I 4.4 Exercises"
+			 "#58")
+			("Chapter *I 4.5 Proof of the well-ordering principle"
+			 "#60")
+			("Chapter I 4.6 The summation notation"
+			 "#60")
+			("Chapter I 4.7 Exercises"
+			 "#62")
+			("Chapter I 4.8 Absolute values and the triangle inequality"
+			 "#64")
+			("Chapter I 4.9 Exercises"
+			 "#66")
+			("Chapter *I 4.10 Miscellaneous exercises involving induction"
+			 "#67")
+		)
+	)
+	("Chapter 1. THE CONCEPTS OF INTEGRAL CALCULUS"
+	 "#71"
+		("Chapter 1.1 The basic ideas of Cartesian geometry"
+		 "#71")
+		("Chapter 1.2 Functions. Informal description and examples"
+		 "#73")
+		("Chapter *1.3 Functions. Formal definition as a set of ordered pairs"
+		 "#76")
+		("Chapter 1.4 More examples of real functions"
+		 "#77")
+		("Chapter 1.5 Exercises"
+		 "#79")
+		("Chapter 1.6 The concept of area as a set function"
+		 "#80")
+		("Chapter 1.7 Exercises"
+		 "#83")
+		("Chapter 1.8 Intervals and ordinate sets"
+		 "#83")
+		("Chapter 1.9 Partitions and step functions"
+		 "#84")
+		("Chapter 1.10 Sum and product of step functions"
+		 "#86")
+		("Chapter 1.11 Exercises"
+		 "#86")
+		("Chapter 1.12 The definition of the integral for step functions"
+		 "#87")
+		("Chapter 1.13 Properties of the integral of a step function"
+		 "#89")
+		("Chapter 1.14 Other notations for integrals"
+		 "#92")
+		("Chapter 1.15 Exercises"
+		 "#93")
+		("Chapter 1.16 The integral of more general functions"
+		 "#95")
+		("Chapter 1.17 Upper and lower integrals"
+		 "#97")
+		("Chapter 1.18 The area of an ordinate set expressed as an integral"
+		 "#98")
+		("Chapter 1.19 Informal remarks on the theory and technique of integration"
+		 "#98")
+		("Chapter 1.20 Monotonic and piecewise monotonic functions. Definitions and examples"
+		 "#99")
+		("Chapter 1.21 Integrability of bounded monotonic functions"
+		 "#100")
+		("Chapter 1.22 Calculation of the integral of a bounded monotonic function"
+		 "#102")
+		("Chapter 1.23 Calculation of the integral $\int_0^b x^p dx$ when $p$ is a positive integer"
+		 "#102")
+		("Chapter 1.24 The basic properties of the integral"
+		 "#103")
+		("Chapter 1.25 Integration of polynomials"
+		 "#104")
+		("Chapter 1.26 Exercises"
+		 "#106")
+		("Chapter 1.27 Proofs of the basic properties of the integral"
+		 "#107")
+	)
+	("Chapter 2. SOME APPLICATIONS OF INTEGRATION"
+	 "#111"
+		("Chapter 2.1 Introduction"
+		 "#111")
+		("Chapter 2.2 The area of a region between two graphs expressed as an integral"
+		 "#111")
+		("Chapter 2.3 Worked examples"
+		 "#112")
+		("Chapter 2.4 Exercises"
+		 "#117")
+		("Chapter 2.5 The trigonometric functions"
+		 "#117")
+		("Chapter 2.6 Integration formulas for the sine and cosine"
+		 "#120")
+		("Chapter 2.7 A geometric description of the sine and cosine functions"
+		 "#125")
+		("Chapter 2.8 Exercises"
+		 "#127")
+		("Chapter 2.9 Polar coordinates"
+		 "#131")
+		("Chapter 2.10 The integral for area in polar coordinates"
+		 "#132")
+		("Chapter 2.11 Exercises"
+		 "#133")
+		("Chapter 2.12 Application of integration to the calculation of volume"
+		 "#134")
+		("Chapter 2.13 Exercises"
+		 "#137")
+		("Chapter 2.14 Application of integration to the concept of work"
+		 "#138")
+		("Chapter 2.15 Exercises"
+		 "#139")
+		("Chapter 2.16 Average value of a function"
+		 "#140")
+		("Chapter 2.17 Exercises"
+		 "#142")
+		("Chapter 2.18 The integral as a function of the upper limit. Indefinite integrals"
+		 "#143")
+		("Chapter 2.19 Exercises"
+		 "#147")
+	)
+	("Chapter 3. CONTINUOUS FUNCTIONS"
+	 "#149"
+		("Chapter 3.1 Informal description of continuity"
+		 "#149")
+		("Chapter 3.2 The definition of the limit of a function"
+		 "#150")
+		("Chapter 3.3 The definition of continuity of a function"
+		 "#153")
+		("Chapter 3.4 The basic limit theorems. More examples of continuous functions"
+		 "#154")
+		("Chapter 3.5 Proofs of the basic limit theorems"
+		 "#158")
+		("Chapter 3.6 Exercises"
+		 "#161")
+		("Chapter 3.7 Composite functions and continuity"
+		 "#163")
+		("Chapter 3.8 Exercises"
+		 "#165")
+		("Chapter 3.9 Bolzano's theorem for continuous functions"
+		 "#165")
+		("Chapter 3.10 The intermediate-value theorem for continuous functions"
+		 "#167")
+		("Chapter 3.11 Exercises"
+		 "#168")
+		("Chapter 3.12 The process of inversion"
+		 "#169")
+		("Chapter 3.13 Properties of functions preserved by inversion"
+		 "#170")
+		("Chapter 3.14 Inverses of piecewise monotonic functions"
+		 "#171")
+		("Chapter 3.15 Exercises"
+		 "#172")
+		("Chapter 3.16 The extreme-value theorem for continuous functions"
+		 "#173")
+		("Chapter 3.17 The small-span theorem for continuous functions (uniform continuity)"
+		 "#175")
+		("Chapter 3.18 The integrability theorem for continuous functions"
+		 "#175")
+		("Chapter 3.19 Mean-value theorems for integrals of continuous functions"
+		 "#177")
+		("Chapter 3.20 Exercises"
+		 "#178")
+	)
+	("Chapter 4. DIFFERENTIAL CALCULUS"
+	 "#179"
+		("Chapter 4.1 Historical introduction"
+		 "#179")
+		("Chapter 4.2 A problem involving velocity"
+		 "#180")
+		("Chapter 4.3 The derivative of a function"
+		 "#182")
+		("Chapter 4.4 Examples of derivatives"
+		 "#184")
+		("Chapter 4.5 The algebra of derivatives"
+		 "#187")
+		("Chapter 4.6 Exercises"
+		 "#190")
+		("Chapter 4.7 Geometric interpretation of the derivative as a slope"
+		 "#192")
+		("Chapter 4.8 Other notations for derivatives"
+		 "#194")
+		("Chapter 4.9 Exercises"
+		 "#196")
+		("Chapter 4.10 The chain rule for differentiating composite functions"
+		 "#197")
+		("Chapter 4.11 Applications of the chain rule. Related rates and implicit differentiation"
+		 "#199")
+		("Chapter 4.12 Exercises"
+		 "#202")
+		("Chapter 4.13 Applications of differentiation to extreme values of functions"
+		 "#204")
+		("Chapter 4.14 The mean-value theorem for derivatives"
+		 "#206")
+		("Chapter 4.15 Exercises"
+		 "#209")
+		("Chapter 4.16 Applications of the mean-value theorem to geometric properties of functions"
+		 "#210")
+		("Chapter 4.17 Second-derivative test for extrema"
+		 "#211")
+		("Chapter 4.18 Curve sketching"
+		 "#212")
+		("Chapter 4.19 Exercises"
+		 "#214")
+		("Chapter 4.20 Worked examples of extremum problems"
+		 "#214")
+		("Chapter 4.21 Exercises"
+		 "#217")
+		("Chapter *4.22 Partial derivatives"
+		 "#219")
+		("Chapter *4.23 Exercises"
+		 "#224")
+	)
+	("Chapter 5. THE RELATION BETWEEN INTEGRATION AND DIFFERENTIATION"
+	 "#225"
+		("Chapter 5.1 The derivative of an indefinite integral. The first fundamental theorem of calculus"
+		 "#225")
+		("Chapter 5.2 The zero-derivative theorem"
+		 "#227")
+		("Chapter 5.3 Primitive functions and the second fundamental theorem of calculus"
+		 "#228")
+		("Chapter 5.4 Properties of a function deduced from properties of its derivative"
+		 "#230")
+		("Chapter 5.5 Exercises"
+		 "#231")
+		("Chapter 5.6 The Leibniz notation for primitives"
+		 "#233")
+		("Chapter 5.7 Integration by substitution"
+		 "#235")
+		("Chapter 5.8 Exercises"
+		 "#239")
+		("Chapter 5.9 Integration by parts"
+		 "#240")
+		("Chapter 5.10 Exercises"
+		 "#243")
+		("Chapter *5.11 Miscellaneous review exercises"
+		 "#245")
+	)
+	("Chapter 6. THE LOGARITHM, THE EXPONENTIAL, AND THE INVERSE TRIGONOMETRIC FUNCTIONS"
+	 "#249"
+		("Chapter 6.1 Introduction"
+		 "#249")
+		("Chapter 6.2 Motivation for the definition of the natural logarithm as an integral"
+		 "#250")
+		("Chapter 6.3 The definition of the logarithm. Basic properties"
+		 "#252")
+		("Chapter 6.4 The graph of the natural logarithm"
+		 "#253")
+		("Chapter 6.5 Consequences of the functional equation L(ab) = L(a) + L(b)"
+		 "#253")
+		("Chapter 6.6 Logarithms referred to any positive base $b\eq1$"
+		 "#255")
+		("Chapter 6.7 Differentiation and integration formulas involving logarithms"
+		 "#256")
+		("Chapter 6.8 Logarithmic differentiation"
+		 "#258")
+		("Chapter 6.9 Exercises"
+		 "#259")
+		("Chapter 6.10 Polynomial approximations to the logarithm"
+		 "#261")
+		("Chapter 6.11 Exercises"
+		 "#265")
+		("Chapter 6.12 The exponential function"
+		 "#265")
+		("Chapter 6.13 Exponentials expressed as powers of $e$"
+		 "#267")
+		("Chapter 6.14 The definition of $e^x$ for arbitrary real $x$"
+		 "#267")
+		("Chapter 6.15 The definition of $a^x$ for $a>0$ and $x$ real"
+		 "#268")
+		("Chapter 6.16 Differentiation and integration formulas involving exponentials"
+		 "#268")
+		("Chapter 6.17 Exercises"
+		 "#271")
+		("Chapter 6.18 The hyperbolic functions"
+		 "#274")
+		("Chapter 6.19 Exercises"
+		 "#274")
+		("Chapter 6.20 Derivatives of inverse functions"
+		 "#275")
+		("Chapter 6.21 Inverses of the trigonometric functions"
+		 "#276")
+		("Chapter 6.22 Exercises"
+		 "#279")
+		("Chapter 6.23 Integration by partial fractions"
+		 "#281")
+		("Chapter 6.24 Integrals which can be transformed into integrals of rational functions"
+		 "#287")
+		("Chapter 6.25 Exercises"
+		 "#290")
+		("Chapter 6.26 Miscellaneous review exercises"
+		 "#291")
+	)
+	("Chapter 7. POLYNOMIAL APPROXIMATIONS TO FUNCTIONS"
+	 "#295"
+		("Chapter 7.1 Introduction"
+		 "#295")
+		("Chapter 7.2 The Taylor polynomials generated by a function"
+		 "#296")
+		("Chapter 7.3 Calculus of Taylor polynomials"
+		 "#298")
+		("Chapter 7.4 Exercises"
+		 "#301")
+		("Chapter 7.5 Taylor's formula with remainder"
+		 "#301")
+		("Chapter 7.6 Estimates for the error in Taylor's formula"
+		 "#303")
+		("Chapter *7.7 Other forms of the remainder in Taylor's formula"
+		 "#306")
+		("Chapter 7.8 Exercises"
+		 "#307")
+		("Chapter 7.9 Further remarks on the error in Taylor's formula. The ${\mathit o}$-notation"
+		 "#309")
+		("Chapter 7.10 Applications to indeterminate forms"
+		 "#312")
+		("Chapter 7.11 Exercises"
+		 "#313")
+		("Chapter 7.12 L'Hopital's rule for the indeterminate form 0/0"
+		 "#315")
+		("Chapter 7.13 Exercises"
+		 "#318")
+		("Chapter 7.14 The symbols $+\infty$ and $-\infty$. Extension of L'Hopital's rule"
+		 "#319")
+		("Chapter 7.15 Infinite limits"
+		 "#321")
+		("Chapter 7.16 The behavior of $\log x$ and $e^x$ for large $x$"
+		 "#323")
+		("Chapter 7.17 Exercises"
+		 "#326")
+	)
+	("Chapter 8. INTRODUCTION TO DIFFERENTIAL EQUATIONS"
+	 "#328"
+		("Chapter 8.1 Introduction"
+		 "#328")
+		("Chapter 8.2 Terminology and notation"
+		 "#329")
+		("Chapter 8.3 A first-order differential equation for the exponential function"
+		 "#330")
+		("Chapter 8.4 First-order linear differential equations"
+		 "#331")
+		("Chapter 8.5 Exercises"
+		 "#334")
+		("Chapter 8.6 Some physical problems leading to first-order linear differential equations"
+		 "#336")
+		("Chapter 8.7 Exercises"
+		 "#342")
+		("Chapter 8.8 Linear equations of second order with constant coefficients"
+		 "#345")
+		("Chapter 8.9 Existence of solutions of the equation y+by=0"
+		 "#346")
+		("Chapter 8.10 Reduction of the general equation to the special case y+by=0"
+		 "#347")
+		("Chapter 8.11 Uniqueness theorem for the equation y+by=0"
+		 "#347")
+		("Chapter 8.12 Complete solution of the equation y+by=0"
+		 "#349")
+		("Chapter 8.13 Complete solution of the equation y+ay+by=0"
+		 "#349")
+		("Chapter 8.14 Exercises"
+		 "#351")
+		("Chapter 8.15 Nonhomogeneous linear equations of second order with constant coefficients"
+		 "#352")
+		("Chapter 8.16 Special methods for determining a particular solution of the nonhomogeneous equation y+ay+by=R"
+		 "#355")
+		("Chapter 8.17 Exercises"
+		 "#356")
+		("Chapter 8.18 Examples of physical problems leading to linear second-order equations with constant coefficients"
+		 "#357")
+		("Chapter 8.19 Exercises"
+		 "#362")
+		("Chapter 8.20 Remarks concerning nonlinear differential equations"
+		 "#362")
+		("Chapter 8.21 Integral curves and direction fields"
+		 "#364")
+		("Chapter 8.22 Exercises"
+		 "#367")
+		("Chapter 8.23 First-order separable equations"
+		 "#368")
+		("Chapter 8.24 Exercises"
+		 "#370")
+		("Chapter 8.25 Homogeneous first-order equations"
+		 "#370")
+		("Chapter 8.26 Exercises"
+		 "#373")
+		("Chapter 8.27 Some geometrical and physical problems leading to first-order equations"
+		 "#374")
+		("Chapter 8.28 Miscellaneous review exercises"
+		 "#378")
+	)
+	("Chapter 9. COMPLEX NUMBERS"
+	 "#381"
+		("Chapter 9.1 Historical introduction"
+		 "#381")
+		("Chapter 9.2 Definitions and field properties"
+		 "#381")
+		("Chapter 9.3 The complex numbers as an extension of the real numbers"
+		 "#383")
+		("Chapter 9.4 The imaginary unit $i$"
+		 "#384")
+		("Chapter 9.5 Geometric interpretation. Modulus and argument"
+		 "#385")
+		("Chapter 9.6 Exercises"
+		 "#388")
+		("Chapter 9.7 Complex exponentials"
+		 "#389")
+		("Chapter 9.8 Complex-valued functions"
+		 "#391")
+		("Chapter 9.9 Examples of differentiation and integration formulas"
+		 "#392")
+		("Chapter 9.10 Exercises"
+		 "#394")
+	)
+	("Chapter 10. SEQUENCES, INFINITE SERIES, IMPROPER INTEGRALS"
+	 "#397"
+		("Chapter 10.1 Zeno's paradox"
+		 "#397")
+		("Chapter 10.2 Sequences"
+		 "#401")
+		("Chapter 10.3 Monotonic sequences of real numbers"
+		 "#404")
+		("Chapter 10.4 Exercises"
+		 "#405")
+		("Chapter 10.5 Infinite series"
+		 "#406")
+		("Chapter 10.6 The linearity property of convergent series"
+		 "#408")
+		("Chapter 10.7 Telescoping series"
+		 "#409")
+		("Chapter 10.8 The geometric series"
+		 "#411")
+		("Chapter 10.9 Exercises"
+		 "#414")
+		("Chapter *10.10 Exercises on decimal expansions"
+		 "#416")
+		("Chapter 10.11 Tests for convergence"
+		 "#417")
+		("Chapter 10.12 Comparison tests for series of nonnegative terms"
+		 "#417")
+		("Chapter 10.13 The integral test"
+		 "#420")
+		("Chapter 10.14 Exercises"
+		 "#421")
+		("Chapter 10.15 The root test and the ratio test for series of nonnegative terms"
+		 "#422")
+		("Chapter 10.16 Exercises"
+		 "#425")
+		("Chapter 10.17 Alternating series"
+		 "#426")
+		("Chapter 10.18 Conditional and absolute convergence"
+		 "#429")
+		("Chapter 10.19 The convergence tests of Dirichlet and Abel"
+		 "#430")
+		("Chapter 10.20 Exercises"
+		 "#432")
+		("Chapter *10.21 Rearrangements of series"
+		 "#434")
+		("Chapter 10.22 Miscellaneous review exercises"
+		 "#437")
+		("Chapter 10.23 Improper integrals"
+		 "#439")
+		("Chapter 10.24 Exercises"
+		 "#443")
+	)
+	("Chapter 11. SEQUENCES AND SERIES OF FUNCTIONS"
+	 "#445"
+		("Chapter 11.1 Pointwise convergence of sequences of functions"
+		 "#445")
+		("Chapter 11.2 Uniform convergence of sequences of functions"
+		 "#446")
+		("Chapter 11.3 Uniform convergence and continuity"
+		 "#447")
+		("Chapter 11.4 Uniform convergence and integration"
+		 "#448")
+		("Chapter 11.5 A sufficient condition for uniform convergence"
+		 "#450")
+		("Chapter 11.6 Power series. Circle of convergence"
+		 "#451")
+		("Chapter 11.7 Exercises"
+		 "#453")
+		("Chapter 11.8 Properties of functions represented by real power series"
+		 "#454")
+		("Chapter 11.9 The Taylor's series generated by a function"
+		 "#457")
+		("Chapter 11.10 A sufficient condition for convergence of a Taylor's series"
+		 "#458")
+		("Chapter 11.11 Power-series expansions for the exponential and trigonometric functions"
+		 "#458")
+		("Chapter *11.12 Bernstein's theorem"
+		 "#460")
+		("Chapter 11.13 Exercises"
+		 "#461")
+		("Chapter 11.14 Power series and differential equations"
+		 "#462")
+		("Chapter 11.15 The binomial series"
+		 "#464")
+		("Chapter 11.16 Exercises"
+		 "#466")
+	)
+	("Chapter 12. VECTOR ALGEBRA"
+	 "#468"
+		("Chapter 12.1 Historical introduction"
+		 "#468")
+		("Chapter 12.2 The vector space of $n$-tuples of real numbers"
+		 "#469")
+		("Chapter 12.3 Geometric interpretation for $n\leq3$"
+		 "#471")
+		("Chapter 12.4 Exercises"
+		 "#473")
+		("Chapter 12.5 The dot product"
+		 "#474")
+		("Chapter 12.6 Length or norm of a vector"
+		 "#476")
+		("Chapter 12.7 Orthogonality of vectors"
+		 "#478")
+		("Chapter 12.8 Exercises"
+		 "#479")
+		("Chapter 12.9 Projections. Angle between vectors in $n$-space"
+		 "#480")
+		("Chapter 12.10 The unit coordinate vectors"
+		 "#481")
+		("Chapter 12.11 Exercises"
+		 "#483")
+		("Chapter 12.12 The linear span of a finite set of vectors"
+		 "#485")
+		("Chapter 12.13 Linear independence"
+		 "#486")
+		("Chapter 12.14 Bases"
+		 "#489")
+		("Chapter 12.15 Exercises"
+		 "#490")
+		("Chapter 12.16 The vector space $V_n(C)$ of $n$-tuples of complex numbers"
+		 "#491")
+		("Chapter 12.17 Exercises"
+		 "#493")
+	)
+	("Chapter 13. APPLICATIONS OF VECTOR ALGEBRA TO ANALYTIC GEOMETRY"
+	 "#494"
+		("Chapter 13.1 Introduction"
+		 "#494")
+		("Chapter 13.2 Lines in $n$-space"
+		 "#495")
+		("Chapter 13.3 Some simple properties of straight lines"
+		 "#496")
+		("Chapter 13.4 Lines and vector-valued functions"
+		 "#497")
+		("Chapter 13.5 Exercises"
+		 "#500")
+		("Chapter 13.6 Planes in Euclidean $n$-space"
+		 "#501")
+		("Chapter 13.7 Planes and vector-valued functions"
+		 "#504")
+		("Chapter 13.8 Exercises"
+		 "#505")
+		("Chapter 13.9 The cross product"
+		 "#506")
+		("Chapter 13.10 The cross product expressed as a determinant"
+		 "#509")
+		("Chapter 13.11 Exercises"
+		 "#510")
+		("Chapter 13.12 The scalar triple product"
+		 "#511")
+		("Chapter 13.13 Cramer's rule for solving a system of three linear equations"
+		 "#513")
+		("Chapter 13.14 Exercises"
+		 "#514")
+		("Chapter 13.15 Normal vectors to planes"
+		 "#516")
+		("Chapter 13.16 Linear Cartesian equations for planes"
+		 "#517")
+		("Chapter 13.17 Exercises"
+		 "#519")
+		("Chapter 13.18 The conic sections"
+		 "#520")
+		("Chapter 13.19 Eccentricity of conic sections"
+		 "#523")
+		("Chapter 13.20 Polar equations for conic sections"
+		 "#524")
+		("Chapter 13.21 Exercises"
+		 "#526")
+		("Chapter 13.22 Conic sections symmetric about the origin"
+		 "#527")
+		("Chapter 13.23 Cartesian equations for the conic sections"
+		 "#528")
+		("Chapter 13.24 Exercises"
+		 "#531")
+		("Chapter 13.25 Miscellaneous exercises on conic sections"
+		 "#532")
+	)
+	("Chapter 14. CALCULUS OF VECTOR-VALUED FUNCTIONS"
+	 "#535"
+		("Chapter 14.1 Vector-valued functions of a real variable"
+		 "#535")
+		("Chapter 14.2 Algebraic operations. Components"
+		 "#535")
+		("Chapter 14.3 Limits, derivatives, and integrals"
+		 "#536")
+		("Chapter 14.4 Exercises"
+		 "#539")
+		("Chapter 14.5 Applications to curves. Tangency"
+		 "#540")
+		("Chapter 14.6 Applications to curvilinear motion. Velocity, speed, and acceleration"
+		 "#543")
+		("Chapter 14.7 Exercises"
+		 "#547")
+		("Chapter 14.8 The unit tangent, the principal normal, and the osculating plane of a curve"
+		 "#548")
+		("Chapter 14.9 Exercises"
+		 "#551")
+		("Chapter 14.10 The definition of arc length"
+		 "#552")
+		("Chapter 14.11 Additivity of arc length"
+		 "#555")
+		("Chapter 14.12 The arc-length function"
+		 "#556")
+		("Chapter 14.13 Exercises"
+		 "#558")
+		("Chapter 14.14 Curvature of a curve"
+		 "#559")
+		("Chapter 14.15 Exercises"
+		 "#561")
+		("Chapter 14.16 Velocity and acceleration in polar coordinates"
+		 "#563")
+		("Chapter 14.17 Plane motion with radial acceleration"
+		 "#565")
+		("Chapter 14.18 Cylindrical coordinates"
+		 "#566")
+		("Chapter 14.19 Exercises"
+		 "#566")
+		("Chapter 14.20 Applications to planetary motion"
+		 "#568")
+		("Chapter 14.21 Miscellaneous review exercises"
+		 "#572")
+	)
+	("Chapter 15. LINEAR SPACES"
+	 "#574"
+		("Chapter 15.1 Introduction"
+		 "#574")
+		("Chapter 15.2 The definition of a linear space"
+		 "#574")
+		("Chapter 15.3 Examples of linear spaces"
+		 "#575")
+		("Chapter 15.4 Elementary consequences of the axioms"
+		 "#577")
+		("Chapter 15.5 Exercises"
+		 "#578")
+		("Chapter 15.6 Subspaces of a linear space"
+		 "#579")
+		("Chapter 15.7 Dependent and independent sets in a linear space"
+		 "#580")
+		("Chapter 15.8 Bases and dimension"
+		 "#582")
+		("Chapter 15.9 Exercises"
+		 "#583")
+		("Chapter 15.10 Inner products, Euclidean spaces, norms"
+		 "#584")
+		("Chapter 15.11 Orthogonality in a Euclidean space"
+		 "#587")
+		("Chapter 15.12 Exercises"
+		 "#589")
+		("Chapter 15.13 Construction of orthogonal sets. The Gram-Schmidt process"
+		 "#591")
+		("Chapter 15.14 Orthogonal complements. Projections"
+		 "#595")
+		("Chapter 15.15 Best approximation of elements in a Euclidean space by elements in a finite-dimensional subspace"
+		 "#597")
+		("Chapter 15.16 Exercises"
+		 "#599")
+	)
+	("Chapter 16. LINEAR TRANSFORMATIONS AND MATRICES"
+	 "#601"
+		("Chapter 16.1 Linear transformations"
+		 "#601")
+		("Chapter 16.2 Null space and range"
+		 "#602")
+		("Chapter 16.3 Nullity and rank"
+		 "#604")
+		("Chapter 16.4 Exercises"
+		 "#605")
+		("Chapter 16.5 Algebraic operations on linear transformations"
+		 "#606")
+		("Chapter 16.6 Inverses"
+		 "#608")
+		("Chapter 16.7 One-to-one linear transformations"
+		 "#610")
+		("Chapter 16.8 Exercises"
+		 "#612")
+		("Chapter 16.9 Linear transformations with prescribed values"
+		 "#613")
+		("Chapter 16.10 Matrix representations of linear transformations"
+		 "#614")
+		("Chapter 16.11 Construction of a matrix representation in diagonal form"
+		 "#617")
+		("Chapter 16.12 Exercises"
+		 "#619")
+		("Chapter 16.13 Linear spaces of matrices"
+		 "#620")
+		("Chapter 16.14 Isomorphism between linear transformations and matrices"
+		 "#622")
+		("Chapter 16.15 Multiplication of matrices"
+		 "#623")
+		("Chapter 16.16 Exercises"
+		 "#626")
+		("Chapter 16.17 Systems of linear equations"
+		 "#628")
+		("Chapter 16.18 Computation techniques"
+		 "#630")
+		("Chapter 16.19 Inverses of square matrices"
+		 "#634")
+		("Chapter 16.20 Exercises"
+		 "#636")
+		("Chapter 16.21 Miscellaneous exercises on matrices"
+		 "#637")
+	)
+	("Chapter Answers to exercises"
+	 "#640")
+	("Chapter Index"
+	 "#680")
+)
