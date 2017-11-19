@@ -8,18 +8,16 @@ public class AverageCalculator {
 		Scanner input = new Scanner (new File (args[0]));
 		double average=0;
 		double numOfStudents=0;
-		while (input.hasNextLine()) 
+		while (input.hasNextLine()) //Go through each line of input
 		{
-			int name = input.nextInt();
-			double grade = input.nextDouble();
+			int name = input.nextInt(); //Get the student id
+			double grade = input.nextDouble(); //Get their grade
 			
-			average +=grade;
-			numOfStudents++;
-			
-			System.out.println(name + "\t" + grade);
+			average +=grade; //Add their grade to a sum
+			numOfStudents++; //Increase the number of students			
 		}
 		input.close();
-		System.out.println(average/numOfStudents);
+		System.out.println(average/numOfStudents);//Print out the average = sum of class / num of students.
 	}
 
 }
