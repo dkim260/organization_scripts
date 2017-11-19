@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class Math1090grades {
+public class AverageCalculator {
 
 	public static void main(String[] args) throws IOException
 	{

@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class RunPlease {
+public class DjVuBookMarkFormatter {
 	public static void main (String args[]) throws IOException
 	{
 		Scanner input = new Scanner (new File (args[0].toString()));
