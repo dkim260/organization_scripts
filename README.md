@@ -1,2 +1,5 @@
-Simple script to adjust table of contents.txt
+various scripts I might use later on
+so far:
 
+1. Average counter
+2. Bookmark formatter
