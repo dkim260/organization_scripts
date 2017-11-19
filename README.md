@@ -1,5 +1,4 @@
 Various scripts I might use later on
-so far:
 
 1. Average counter
 
@@ -12,6 +11,7 @@ ID      Grade
 ID      Grade
 
 ...
+
 Spaces don't matter, but there must be a new line between each ID      Grade entry.
 
 Have to compile through java and insert the file name as arg[0]
