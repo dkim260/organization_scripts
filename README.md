@@ -2,33 +2,33 @@ Various scripts I might use later on
 
 1. Average counter
 
-Usage:
+  Usage:
 
-Grades format must be:
+  Grades format must be:
 
-ID      Grade
+  ID      Grade
 
-ID      Grade
+  ID      Grade
 
-...
+  ...
 
-Spaces don't matter, but there must be a new line between each ID      Grade entry.
+  Spaces don't matter, but there must be a new line between each ID      Grade entry.
 
-Have to compile through java and insert the file name as arg[0]
+  Have to compile through java and insert the file name as arg[0]
 
 
 2. Bookmark formatter
 
-For djvused
+  For djvused
 
-File format:
+  File format:
 
-Chaptername          Page
+  Chaptername          Page
 
-Chaptername          Page
+  Chaptername          Page
 
-...
+  ...
 
-Spaces don't matter, but hopefully there is a new line between each Chaptername              Page entry.
+  Spaces don't matter, but hopefully there is a new line between each Chaptername              Page entry.
 
-Have to compile through java and insert the file name as arg[0]
+  Have to compile through java and insert the file name as arg[0]
