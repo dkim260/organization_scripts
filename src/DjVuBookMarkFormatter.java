@@ -7,13 +7,14 @@ public class DjVuBookMarkFormatter {
 		
 		StringBuilder output2 = new StringBuilder();
 		
+		//I couldn't figure out how to do it on the run. Parse through the file once
 		while (input.hasNext()) 
 		{
-			String words [] = input.nextLine().split(" ");
+			String words [] = input.nextLine().split(" ");//Split the line up into words
 			
-			output2.append(words[words.length-1]+" ");
+			output2.append(words[words.length-1]+" ");//Add the last word which should be a number to the front.
 					
-			for (int x =0; x< words.length-1; x++)
+			for (int x =0; x< words.length-1; x++)//Add the other words.
 			{
 				output2.append(words[x] + " ");
 			}
@@ -21,19 +22,19 @@ public class DjVuBookMarkFormatter {
 		}
 		input.close();
 		
-		input = new Scanner (output2.toString());
-		FileWriter output = new FileWriter (new File (args[0].toString()+"2"));
+		input = new Scanner (output2.toString()); //Parse through some of the rearrangements.
+		FileWriter output = new FileWriter (new File (args[0].toString()+"2"));//Output file with file name + 2
 
-		output.write("(bookmarks\n");
+		output.write("(bookmarks\n");//how every djvused bookmark file starts
 		while (input.hasNext()) 
 		{
-			String words [] = input.nextLine().split(" ");
+			String words [] = input.nextLine().split(" "); //have to split the words again
 			
 			try 
 			{
 				if (words.length >0) 
 				{
-					int test = Integer.parseInt(words[0])+23;
+					int test = Integer.parseInt(words[0])+23;//I had to add 23 as the offset for book pages.
 					output.write("\t(\"Chapter ");
 	
 					for (int x = 1; x< words.length; x++)
@@ -44,7 +45,7 @@ public class DjVuBookMarkFormatter {
 							output.write(words[x]+" ");
 					}
 	
-					output.write("\"\n\t\"");
+					output.write("\"\n\t\""); //More formatting
 					output.write("#");
 					if (!words[0].equals(""))
 					{
@@ -55,14 +56,13 @@ public class DjVuBookMarkFormatter {
 			}
 			catch (NumberFormatException e) 
 			{
-				output.write("\t(\"");
+				output.write("\t(\"");//When entries don't have a number as the first word. E.g. Table of Contents, Title, etc.
 				output.write(words[0]);
-				output.write("\"\n\t\"");
+				output.write("\"\n\t\"");//Added some tabs to make it look easier to read if you want to make adjustments.
 				output.write("\")\n");
 			}
 		}
-		output.write(")");
-		
+		output.write(")");//Closing bracket		
 		input.close();
 		output.close();
 	}
