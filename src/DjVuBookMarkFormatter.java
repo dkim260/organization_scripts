@@ -4,24 +4,25 @@ public class DjVuBookMarkFormatter {
 	public static void main (String args[]) throws IOException
 	{
 		Scanner input = new Scanner (new File (args[0].toString()));
-		FileWriter output = new FileWriter (new File ("format2.txt"));
+		
+		StringBuilder output2 = new StringBuilder();
 		
 		while (input.hasNext()) 
 		{
 			String words [] = input.nextLine().split(" ");
 			
-			output.write(words[words.length-1] +" ");
+			output2.append(words[words.length-1]+" ");
+					
 			for (int x =0; x< words.length-1; x++)
 			{
-				output.write(words[x]+" ");
+				output2.append(words[x] + " ");
 			}
-			output.write(("\n"));
+			output2.append("\n");
 		}
 		input.close();
-		output.close();
 		
-		input = new Scanner (new File ("format2.txt"));
-		output = new FileWriter (new File (args[0].toString()+"2"));
+		input = new Scanner (output2.toString());
+		FileWriter output = new FileWriter (new File (args[0].toString()+"2"));
 
 		output.write("(bookmarks\n");
 		while (input.hasNext()) 
