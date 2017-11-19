@@ -1,4 +1,4 @@
-various scripts I might use later on
+Various scripts I might use later on
 so far:
 
 1. Average counter
