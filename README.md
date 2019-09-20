@@ -39,3 +39,6 @@ Various scripts I might use later on
   https://pastebin.com/qHq0K0DU
   after
   https://pastebin.com/Apcf4pAL
+  
+  
+  3. powershell script for youtube-dl thing
